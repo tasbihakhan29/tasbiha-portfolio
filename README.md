@@ -1,16 +1,64 @@
-# React + Vite
+# Tasbiha Khan Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and interactive personal portfolio website built with **React** and **Tailwind CSS**, showcasing projects, skills, and contact information. This portfolio emphasizes **clean design, accessibility, and scalability**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
+Check out the live portfolio [here](https://tasbiha-portfolio.vercel.app/).
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+### 1. Hero & Introduction
+- Engaging introduction with gradient text highlights.
+- Concise overview of skills, interests, and current focus areas.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Skills Section
+- Technical expertise grouped into categories.
+- **Programming Languages**: PHP, JavaScript, HTML
+- **Backend & APIs**: Node.js, PHP APIs
+- **Frontend & Tools**: React, Tailwind CSS
+- Accessible and interactive design for better user experience.
+
+### 3. Projects Section
+- Featured projects with:
+  - Project description
+  - Key features
+  - Tech stack
+  - Project status
+- Example projects:
+  - **Beyond Barriers** – Inclusive learning platform with AI-driven accessibility features using PHP, JavaScript, HTML, and Gemini API integration.
+  - **MedSync City** – Medicine expiry and availability coordination system (Spring Boot + MySQL).
+
+### 4. Contact Section
+- Email and social links for direct connection.
+- Current availability status for internships and full-time roles starting 2025.
+- Clean and interactive layout with hover effects.
+
+### 5. Call to Action
+- Encourages collaboration, networking, and professional opportunities.
+
+---
+
+## 🛠 Tech Stack
+- **Frontend**: React, Tailwind CSS
+- **Icons**: Lucide React
+- **Deployment**: Vercel
+- **APIs**: Gemini API (used in Beyond Barriers project)
+
+---
+
+## Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/tasbihakhan29/portfolio.git
+cd portfolio
+Install dependencies:
+
+npm install
+npm run dev
+
