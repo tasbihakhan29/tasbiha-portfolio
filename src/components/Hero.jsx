@@ -3,7 +3,12 @@ import { Code2, Cpu, Database, Sparkles } from 'lucide-react';
 
 const Hero = () => {
   const [textIndex, setTextIndex] = useState(0);
-  const roles = ['Full Stack Developer', 'Problem Solver', 'Backend Engineer', 'CS Student'];
+const roles = [
+  'Backend Developer',
+  'Problem Solver',
+  'Tech learner',
+  'CS Undergraduate'
+];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -13,11 +18,11 @@ const Hero = () => {
   }, []);
 
   const stats = [
-    { icon: <Code2 />, label: '10K+ Lines', desc: 'Code Written' },
-    { icon: <Cpu />, label: '200+', desc: 'LeetCode Problems' },
-    { icon: <Database />, label: '5+', desc: 'Projects Built' },
-    { icon: <Sparkles />, label: '4', desc: 'Awards Won' },
-  ];
+  { icon: <Code2 />, label: '15K+ Lines', desc: 'Code Written' },
+  { icon: <Cpu />, label: '200+', desc: 'DSA Problems Solved' },
+  { icon: <Database />, label: '8+', desc: 'Projects Built' },
+  { icon: <Sparkles />, label: '5+', desc: 'Awards & Achievements' },
+];
 
   return (
     <section id="hero" className="min-h-screen pt-24 pb-16 px-6 bg-gradient-to-br from-white to-blue-50">
@@ -40,8 +45,8 @@ const Hero = () => {
           </div>
 
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-12">
-            Building scalable, accessible, and impactful software systems with 
-            focus on backend engineering and full-stack development.
+            Computer Science student exploring backend development, data-driven problem solving, and inclusive software design.
+
           </p>
 
           {/* CTA Buttons */}

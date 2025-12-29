@@ -4,33 +4,40 @@ const Projects = () => {
   const projects = [
     {
       title: 'MedSync City',
-      description: 'Spring Boot based city-level medicine expiry and availability coordination system across municipal hospitals.',
+      description:
+        'A city-level medicine management system designed to help hospitals track medicine expiry dates and availability in a centralized manner.',
       features: [
-        'Role-based access control',
-        'Expiry-aware inventory tracking',
-        'Real-time stock monitoring',
-        'Automated alerts system'
+        'Role-based access for hospital staff',
+        'Medicine expiry tracking',
+        'Centralized inventory visibility',
+        'Notification-based alert system'
       ],
-      tech: ['Spring Boot', 'MySQL', 'React', 'JWT', 'REST API'],
-      impact: 'Reduces medicine wastage by 40% in municipal healthcare systems',
-      metrics: 'Scaled to 50+ hospitals',
+      tech: ['Spring Boot', 'MySQL', 'React', 'REST API'],
+      impact:
+        'Focused on improving coordination between hospitals and reducing manual tracking errors.',
+      metrics:
+'Designed with scalability in mind to support real-world adoption by city-level healthcare institutions.',
+
       icon: <Server className="text-green-500" />,
-      status: 'Production Ready'
+      status: 'Academic Project'
     },
     {
       title: 'Beyond Barriers',
-      description: 'Inclusive learning platform for MSBTE and visually impaired students with AI-driven accessibility features.',
+      description:
+        'An accessibility-focused learning platform built for MSBTE 1st-year students to simplify technical education using voice support and AI assistance.',
       features: [
-        'Voice-based notes navigation',
-        'AI-driven feedback system',
-        'Accessibility-focused design',
-        'Interactive quizzes & flashcards'
+        'Voice-based note creation and playback',
+        'Gemini API powered AI explanations',
+        'Subject-wise structured learning content',
+        'Quizzes and flashcards for self-practice'
       ],
-      tech: ['Python', 'React', 'TensorFlow', 'Node.js', 'MongoDB'],
-      impact: 'Makes technical education accessible to 1000+ visually impaired students',
-      metrics: '95% user satisfaction rate',
+      tech: ['PHP', 'JavaScript', 'HTML', 'CSS', 'MySQL', 'Gemini API'],
+      impact:
+        'Explores how accessibility and AI can be combined to enhance the learning experience for diverse learners.',
+      metrics:
+        'Strong focus on usability, accessibility, and practical learning workflows.',
       icon: <Users className="text-purple-500" />,
-      status: 'Award Winning'
+      status: 'College Project'
     }
   ];
 
@@ -43,14 +50,14 @@ const Projects = () => {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-            Real-world solutions showcasing technical expertise and problem-solving capabilities
+            Selected projects showcasing problem-solving skills, accessibility focus, and practical development experience
           </p>
         </div>
 
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <div 
+            <div
               key={index}
               className="bg-gradient-to-br from-white to-gray-50 rounded-2xl overflow-hidden shadow-xl card-hover group"
             >
@@ -93,7 +100,7 @@ const Projects = () => {
                 <h4 className="font-bold text-gray-800 mb-3">Tech Stack</h4>
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((tech, i) => (
-                    <span 
+                    <span
                       key={i}
                       className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium"
                     >
@@ -103,18 +110,18 @@ const Projects = () => {
                 </div>
               </div>
 
-              {/* Impact & Metrics */}
+              {/* Learning & Highlights */}
               <div className="p-8">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="bg-blue-50 p-4 rounded-lg">
                     <h4 className="font-bold text-gray-800 mb-2 flex items-center">
                       <Award size={18} className="mr-2 text-green-500" />
-                      Impact
+                      Project Focus
                     </h4>
                     <p className="text-gray-600 text-sm">{project.impact}</p>
                   </div>
                   <div className="bg-purple-50 p-4 rounded-lg">
-                    <h4 className="font-bold text-gray-800 mb-2">Metrics</h4>
+                    <h4 className="font-bold text-gray-800 mb-2">Highlights</h4>
                     <p className="text-gray-600 text-sm">{project.metrics}</p>
                   </div>
                 </div>
@@ -126,11 +133,11 @@ const Projects = () => {
         {/* Call to Action */}
         <div className="text-center mt-16">
           <p className="text-gray-600 mb-6">
-            Interested in the technical details? View complete case studies on GitHub
+            Interested in implementation details and source code?
           </p>
-          <a 
-            href="https://github.com" 
-            target="_blank" 
+          <a
+            href="https://github.com/tasbihakhan29"
+            target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-gray-800 text-white rounded-lg font-semibold hover:bg-black transition-all"
           >

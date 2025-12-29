@@ -14,16 +14,16 @@ const Achievements = () => {
       icon: <Award className="text-blue-500" />,
       title: 'State-Level Technical Paper Presentation',
       description: '2nd Position - MSBTE Maharashtra State Competition',
-      year: '2023',
-      metrics: 'Presented research on "AI in Accessible Education"',
+      year: '2024',
+      metrics: 'Presented research on "VR in Education"',
       category: 'Research'
     },
     {
       icon: <Star className="text-green-500" />,
       title: 'Code Jam Champion',
       description: '1st Position - COSA Coding Competition',
-      year: '2023',
-      metrics: 'Solved 15/15 algorithmic challenges in 3 hours',
+      year: '2025',
+      metrics: 'Solved 4/4 algorithmic challenges in 10 mins each among 30+ participants',
       category: 'Competitive Programming'
     },
     {
@@ -31,7 +31,7 @@ const Achievements = () => {
       title: 'LeetCode Problem Solver',
       description: '200+ Problems Solved with Consistent Progress',
       year: 'Ongoing',
-      metrics: 'Top 15% in weekly contests, 85%+ acceptance rate',
+      metrics: '75%+ acceptance rate',
       category: 'Skill Development'
     }
   ];
@@ -97,7 +97,7 @@ const Achievements = () => {
               <p className="text-gray-600">Academic performance throughout education</p>
             </div>
             <div className="p-6 bg-green-50 rounded-xl">
-              <div className="text-3xl font-bold text-gray-800 mb-2">4.0/4.0</div>
+              <div className="text-3xl font-bold text-gray-800 mb-2"></div>
               <p className="text-gray-600">GPA in core Computer Science subjects</p>
             </div>
             <div className="p-6 bg-purple-50 rounded-xl">

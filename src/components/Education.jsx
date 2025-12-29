@@ -7,7 +7,7 @@ const Education = () => {
       institution: 'Government College of Engineering, Nagpur',
       duration: '2025 – 2028 (Expected)',
       status: 'Current',
-      score: 'CGPA: 8.5+ (Anticipated)',
+      //score: 'CGPA: 8.5+ (Anticipated)',
       highlights: [
         'Advanced Algorithms & Data Structures',
         'Database Systems & Design',
@@ -27,7 +27,7 @@ const Education = () => {
         '1st in Project Competition',
         'State-Level Paper Presentation',
         'Code Jam Winner',
-        'Technical Club Coordinator'
+        'Institute Topper'
       ],
       icon: <BookOpen className="text-green-500" />,
       location: 'Yavatmal, Maharashtra'
@@ -37,13 +37,9 @@ const Education = () => {
       institution: 'Free Methodist English High School',
       duration: '2012 – 2022',
       status: 'Completed',
-      score: '89.80% (School Topper in Science)',
+      score: '89.80% ',
       highlights: [
-        'School Topper in Computer Science',
-        'Mathematics Olympiad Participant',
-        'Science Exhibition Winner',
-        'English Elocution Champion'
-      ],
+'Consistently ranked in the top 10 students throughout school'],
       icon: <Award className="text-purple-500" />,
       location: 'Yavatmal, Maharashtra'
     }

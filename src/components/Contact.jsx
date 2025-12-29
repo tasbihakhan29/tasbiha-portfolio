@@ -33,38 +33,38 @@ const Contact = () => {
       value: 'tasbihatahreemkhan@gmail.com',
       link: 'mailto:tasbihatahreemkhan@gmail.com'
     },
-    {
-      icon: <MapPin className="text-green-500" />,
-      label: 'Location',
-      value: 'Maharashtra, India',
-      link: null
-    },
-    {
-      icon: <Phone className="text-purple-500" />,
-      label: 'Availability',
-      value: 'Open to Opportunities',
-      link: null
-    }
+    // {
+    //   icon: <MapPin className="text-green-500" />,
+    //   label: 'Location',
+    //   value: 'Maharashtra, India',
+    //   link: null
+    // },
+    // {
+    //   icon: <Phone className="text-purple-500" />,
+    //   label: 'Availability',
+    //   value: 'Open to Opportunities',
+    //   link: null
+    // }
   ];
 
   const socialLinks = [
     {
       platform: 'GitHub',
       icon: <Github size={20} />,
-      url: 'https://github.com',
-      username: '@tasbiha-khan'
+      url: 'https://github.com/tasbihakhan29',
+      username: '@tasbihakhan29'
     },
     {
       platform: 'LinkedIn',
       icon: <Linkedin size={20} />,
-      url: 'https://linkedin.com',
+      url: 'https://www.linkedin.com/in/tasbiha-khan/',
       username: 'Tasbiha Khan'
     },
     {
       platform: 'LeetCode',
       icon: <Send size={20} />,
-      url: 'https://leetcode.com',
-      username: 'tasbiha_khan'
+      url: 'https://leetcode.com/tasbihakhan',
+      username: 'tasbihakhan'
     }
   ];
 
